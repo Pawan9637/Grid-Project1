@@ -1,0 +1,62 @@
+.container{
+   background-color:;
+   height: 700px;
+   /* width: 900px; */
+   display:grid;
+   /* grid-template-rows: 133px 133px 133px;
+   grid-template-columns: 133px 133px 133px; */
+   grid-template-rows: repeat(4, 1fr);
+   grid-template-columns: repeat(4, 1fr);
+   row-gap: 12px;
+   column-gap: 12px;
+
+}
+
+.item{
+    background-color: aqua;
+    /* height: 122px;
+    width: 122px; */
+}
+
+.item1{
+   grid-row-start: 1;
+   grid-row-end: 3; 
+   grid-column-start: 1;
+   grid-column-end: 3; 
+   background-image: url("https://images.unsplash.com/photo-1585607344893-43a4bd91169a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwZmVzdGl2YWx8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+   background-size: contain;
+}
+
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url("https://images.unsplash.com/photo-1608865413608-6cfd1fc622b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZGl3YWxpJTIwZmVzdGl2YWx8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60");
+    background-size: contain;
+}
+
+.item3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-image: url("https://media.istockphoto.com/id/1331204944/photo/vivid-vibrant-multicolored-lights-of-ferris-wheel-at.jpg?b=1&s=170667a&w=0&k=20&c=IynicB5lVGTQ8u_om60lMMjHPPO_z5-DqGRtQ5qY9uo=");
+    background-size: contain;
+}
+
+.itemA{
+    background-image: url("https://media.istockphoto.com/id/1345971391/photo/young-indian-girl-holding-diwali-oil-lamp.jpg?b=1&s=170667a&w=0&k=20&c=fFeLSLFggSKCm8DEpfzFM9YCvTLWYKUKBHkh4FsvSl4=");
+    background-size: contain;
+}
+
+.itemB{
+    background-image: url("https://media.istockphoto.com/id/490136776/photo/holi-festival-in-india.jpg?s=612x612&w=0&k=20&c=d0wbH6NqHdVtBFraISKaXnMQ97ZS3wfJDSQYZyODf7s=");
+    background-size: contain;
+}
+
+.itemC{
+    background-image: url("https://media.istockphoto.com/id/516767122/photo/smart-indian-couple-performing-gudhi-padwa-puja.jpg?s=612x612&w=0&k=20&c=TWGMwrfzfxY_FoPXKaMnYGjNcZtrIK2k9YfBG1mGjh0=");
+    background-size: contain;
+}
+
+.itemD{
+    background-image: url("https://media.istockphoto.com/id/1361581931/photo/harvest-festival-is-celebrated-as-makar-sankranti-lohri-uttarayan-maghi-poush-sankranthi-magh.jpg?s=612x612&w=0&k=20&c=vjQLxPjZrGZwFfhzriddgMui3qc1sA_gheesr_vMWLk=");
+    background-size: contain;
+}
